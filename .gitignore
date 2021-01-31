@@ -6,3 +6,4 @@ build
 /build
 local.properties
 /local.properties
+*.hprof

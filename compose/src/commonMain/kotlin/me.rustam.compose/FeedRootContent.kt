@@ -50,9 +50,9 @@ fun FeedList(model: Model, onItemClick: (Long) -> Unit) {
     LazyColumn {
         items(model.feeds) { item ->
             ListItem(
-                overlineText = { Text(text = "Feed id: ${item.id})") },
-                secondaryText = { Text(text = item.title) },
-                text = { Text(text = item.content) },
+                overlineText = { Text(text = "Feed id: ${item.id}") },
+                text = { Text(text = item.title) },
+                secondaryText = { Text(text = item.content) },
                 modifier = Modifier.clickable(onClick = { onItemClick(item.id) })
             )
         }

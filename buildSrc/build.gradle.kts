@@ -29,7 +29,7 @@ buildscript {
         classpath(Deps.JetBrains.Kotlin.gradlePlugin)
 //      classpath(Deps.JetBrains.Kotlin.serialization)
         classpath(Deps.JetBrains.Compose.gradlePlugin)
-        classpath(Deps.Android.PlayServices.plugin)
+//        classpath(Deps.Android.PlayServices.plugin)
     }
 }
 
@@ -37,8 +37,8 @@ dependencies {
     implementation(Deps.Android.Tools.Build.gradlePlugin)
     implementation(Deps.JetBrains.Kotlin.gradlePlugin)
     implementation(Deps.JetBrains.Compose.gradlePlugin)
-    implementation(Deps.Squareup.SQLDelight.gradlePlugin)
-    implementation(Deps.Android.PlayServices.plugin)
+//    implementation(Deps.Squareup.SQLDelight.gradlePlugin)
+//    implementation(Deps.Android.PlayServices.plugin)
 }
 
 kotlin {

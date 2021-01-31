@@ -17,6 +17,11 @@ kotlin {
     }
 
     sourceSets {
+        named("commonMain"){
+            dependencies {
+                implementation(Deps.JetBrains.Kotlin.stdlib)
+            }
+        }
         named("commonTest") {
             dependencies {
                 implementation(Deps.JetBrains.Kotlin.testCommon)
